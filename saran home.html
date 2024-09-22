@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>saran-home</title>
+<style>
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body{
+    margin: 0%;
+    transition: background-color 0.5s;
+    transition: margin-left .5s;
+    height: 100vh;
+    background-image: url(data:image/jpeg;base64,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);
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+}
+
+h1{
+    font-size: 50px;
+    text-align: center;
+}
+p{
+  font-size: 30px;
+  text-align: center;
+}
+
+h1:hover,p:hover{
+    color: blue;
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 20px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+.main {
+  transition: margin-left .5s;
+  padding: 16px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+</style>
+</head>
+<body>
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="#main">Home</a>
+  <a href="#About">About</a>
+  <a href="saran-resume.html">Resume</a>
+  <a href="#">Project</a>
+  <a href="form .html">Contact Me</a>
+</div>
+<div id="main">
+<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span>
+<h1>T.SARAN</h1>
+<p>Web Designer</p>
+
+<br><br><br>
+<h1>About</h1><br>
+<p>Hi, I am Saran.  I'm a web Developer.  I see myself as a cofident person who can overcome among worst and toughest situations.
+  And dare to face the problems with my skills and ideas.  On a personal with my  skils and ideas.
+  On a personal front.  I make friends easily and obey superiors.</p>
+</div>
+<script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+  document.getElementById("main").style.marginLeft = "250px";
+  document.body.style.backgroundColor = "silver";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+  document.getElementById("main").style.marginLeft= "0";
+  document.body.style.backgroundColor = "white";
+}
+</script>  
+</body>
+</html>
