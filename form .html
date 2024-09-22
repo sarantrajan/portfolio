@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Conduct Form</title>
+<style>
+body{
+  font-family: Times New Roaman;
+  background-color: pink;
+  text-align: center;
+  padding: 50px;
+  margin: 100px;
+  background-image: url(data:image/jpeg;base64,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);
+  background-size: cover;
+  background-position: center;
+
+}
+.form{
+  border: 2px solid black;
+  border-radius: 50px;
+  width:fit-content;
+  height:fit-content;
+  position: relative;
+  padding: 10px;
+}
+h2{
+  color: brown;
+}
+p{
+  color: black;
+  text-align: center;
+  font-size: 14;
+  margin: 28px;
+  display: block;
+  content:attr();
+}
+button{
+    padding:8px 12px;
+    margin:8px;
+    font-family:'Montserrat',sans-serif;
+    border:2px solid #78788c;
+    background:0;
+    color:#5a5a6e;
+    cursor:pointer;
+    transition:all .3s;
+}
+@media screen and (max-width: 768px) {
+  .form-container {
+      width: 80%; 
+  }
+  .contact {
+      width: 80%; 
+  }
+
+  .register-form h2 {
+      font-size: 20px; 
+  }
+
+  .register-form input {
+      font-size: 16px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .form-container {
+      width: 90%; 
+      padding: 15px; 
+  }
+
+  .contact {
+      width: 100%; 
+      font-size: medium; 
+  }
+
+  .register-form h2 {
+      font-size: 18px;
+
+  .register-form input {
+      font-size: 14px;
+      padding: 8px; 
+  }
+
+  .register-form button {
+      padding: 8px; 
+      font-size: 14px; 
+  }
+}
+</style>
+</head>
+<body>
+<form class="form">
+<h2>CONTACT US</h2>
+<p type="Name:"><input placeholder="Enter Your Name"></input></p>
+<p type="Email:"><input placeholder="Enter Your Email"></input></p>
+<p type="Message:"><input placeholder="Message"></input></p>
+<button>Send Message</button>
+</form>
+</body>
+</html>
